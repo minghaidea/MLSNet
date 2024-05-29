@@ -5,19 +5,19 @@ MLSNet: a deep learning model for predicting transcription factor binding sites.
 
 # Dependencies
 
-MLSNet works under Python 3.7
+MLSNet works under Python 3.8
 
 The required dependencies for MLSNet are as follows：
 
-python ==3.7.15
+python==3.8.18
 
-pytorch==1.10.2
+pytorch==2.1.1
 
-numpy==1.21.5
+numpy==1.24.1
 
-pandas==1.3.5
+pandas==1.4.4
 
-scikit-learn==1.0.2
+scikit-learn==1.3.0
 
 # Input
 
