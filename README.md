@@ -22,6 +22,7 @@ scikit-learn==1.3.0
 # Input
 
 MLSNet takes two files as input: the Sequence file and the Shape file. The Sequence file is composed of two CSV files: one for training validation and one for testing. The datasets are available at http://cnn.csail.mit.edu/motif discovery/.The Shape file is computed from the corresponding DNA sequences in the Sequence file by the DNAshapeR tool, which can be downloaded from http://www.bioconductor.org/. The Shape file consists of ten CSV files of helix twist (HelT), minor groove width (MGW), propeller twist (ProT), rolling (Roll), and minor groove electrostatic potential (EP) for training validation data and testing data.
+**Dataset**: Since the dataset link mentioned in the paper is closed and inaccessible, I store the dataset on Quark Network Disk. You can download it yourself. Only 165 ChIP-seq data is provided on the network disk, please use the DNAShapeR tool to convert the shape data. **Link**: https://pan.quark.cn/s/6733174c3aff **Key**: Q9h6
 
 # Output
 
